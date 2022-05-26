@@ -119,7 +119,7 @@ const Post: FC<Props> = ({ post }) => {
                 {post.comments.map((comment) => (
                     <div key={comment._id} >
                         <p>
-                            <span className='text-yellow-500'>{comment.name}</span>
+                            <span className='text-yellow-500 mr-2'>{comment.name}</span>
                             {comment.comment}
                         </p>
                     </div>
